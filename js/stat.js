@@ -33,9 +33,6 @@ var getMaxElement = function (arr) {
 };
 
 
-
-
-
 window.renderStatistics = function (ctx, players, times) {
   renderCloud(ctx, CLOUD_X + 10, CLOUD_Y + 10, 'rgba(0, 225, 0, 0.3)');
   renderCloud(ctx, CLOUD_X, CLOUD_Y, '#fff');
@@ -60,4 +57,3 @@ window.renderStatistics = function (ctx, players, times) {
 
 };
 
- 
