@@ -73,7 +73,6 @@ var wizards = [
 
 ];
 
-
 for (var i = 0; i < 4; i++) {
   var wizardElement = similarWizardTemplate.cloneNode(true);
 
@@ -83,6 +82,5 @@ wizardElement.querySelector('.setup-similar-label').textContent = wizards[i].nam
 
   similarListElement.appendChild(wizardElement);
 }
-
 
 userDialog.querySelector('.setup-similar').classList.remove('hidden');
