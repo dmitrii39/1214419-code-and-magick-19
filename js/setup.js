@@ -71,7 +71,6 @@ var eyecolorsRandom = function () {
   return eyecolors[eyecolorsRandomIndex];
 }
 
-
 var createMags = function () {
   var mags = [];
   for (var i = 0; i < 4; i++) {
